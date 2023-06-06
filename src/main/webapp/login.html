@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>公司人员工资管理系统登录</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body class="login-page sidebar-collapse" background="background1.jpg">
+
+<!-- End Navbar -->
+<div class="container">
+    <h1>登录</h1>
+    <form class="form" method="post" action="LoginServlet.do">
+        <div class="content">
+            <label>
+                <input type="text" class="form-control" name="account" placeholder="用户名">
+            </label>
+        </div>
+        <div class="input-group form-group-no-border input-lg">
+            <label>
+                <input type="password" class="form-control" name="password" placeholder="密码"/>
+            </label>
+        </div>
+        <div class="footer text-center">
+            <input type="submit" class="btn btn-primary btn-round btn-lg btn-block" value="确定">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
